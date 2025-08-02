@@ -1,0 +1,9 @@
+[default]
+extend-ignore-identifiers-re = []
+
+[type.po]
+extend-glob = ["*.po"]
+check-file = false
+
+[files]
+extend-exclude = ["*.lock", "*.toml", "*.log"]
